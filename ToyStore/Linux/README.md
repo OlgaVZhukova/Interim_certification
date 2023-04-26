@@ -43,6 +43,6 @@
 
     touch testfile
     crontab -e
-    */1 * * * * echo “Test” >> /home/vboxuser/testfile
+    */3 * * * * echo “Test” >> /home/vboxuser/testfile
     cat testfile
 
