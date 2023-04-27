@@ -2,6 +2,9 @@ import datetime
 from colorama import Fore, Style
 
 from controller import Controller
+from modelJSON import ModelJSON
+from note import Note
+from view import View
 
 def run():
     c = Controller(ModelJSON("notes.json"), View())
